@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import axios from 'axios';
 
+
 function App() {
   const [jokes, setJokes] = useState([])
 
@@ -21,7 +22,6 @@ function App() {
           <p>{joke.content}</p>
         </div>
       ))}
-      <bluedart-tracking-component tracking-number="75484923054" checkpoints="true" />
     </div>
   );
 

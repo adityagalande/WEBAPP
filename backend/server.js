@@ -16,17 +16,17 @@ app.get('/api/joke', (req, res) => {
     {
       id: 1,
       title: "First Joke",
-      content: "This is first joke"
+      content: "This is first joke."
     },
     {
       id: 2,
       title: "Second Joke",
-      content: "This is second joke"
+      content: "This is second joke."
     },
     {
       id: 3,
       title: "Third Joke",
-      content: "This is third joke"
+      content: "This is third joke."
     },
   ]
 
